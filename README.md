@@ -76,30 +76,32 @@ Notebook with granular details [Scraping/Cleaning Notebook](https://github.com/c
 
 ## &nbsp;&nbsp;&nbsp;&nbsp; 4a. Baseline Model <a class="anchor" id="Baseline"></a>
 
-INSERT MODEL PHOTO
+![alt text](https://github.com/chris161011/NFL_salarycap_optimization/blob/main/Images/Dummy.PNG)
 
 ---  
 ## &nbsp;&nbsp;&nbsp;&nbsp; 4b. Logistic Regression <a class="anchor" id="log_reg"></a>  
 
-INSERT MODEL PHOTO
+![alt text](https://github.com/chris161011/NFL_salarycap_optimization/blob/main/Images/Log_reg.PNG)
 
 ## &nbsp;&nbsp;&nbsp;&nbsp; 4c. Decision Tree <a class="anchor" id="dtree"></a>  
 
-INSERT MODEL PHOTO
+![alt text](https://github.com/chris161011/NFL_salarycap_optimization/blob/main/Images/Dec_T.PNG)
 
 ---  
 ## &nbsp;&nbsp;&nbsp;&nbsp; 4d. Optimization <a class="anchor" id="func"></a>  
 
 &nbsp;&nbsp;&nbsp;&nbsp; We achieved close enough scores with both Logistic Regression and Decision Trees that I believe it warrants optimizing both.  
 
-INSERT MODEL PHOTO(s)
+![alt text](https://github.com/chris161011/NFL_salarycap_optimization/blob/main/Images/Log_reg_opt.PNG)
 
 The optimized Decision Tree scored a whopping 96.1% accuracy! This will be our final model.  
+
+![alt text](https://github.com/chris161011/NFL_salarycap_optimization/blob/main/Images/fnl_mod.PNG)
 
 ---  
 # 5) Feature Engineering <a class="anchor" id="feat"></a>  
 
-INSERT CORRELATION TABLE
+![alt text](https://github.com/chris161011/NFL_salarycap_optimization/blob/main/Images/corr_table.PNG)
 
 ---  
 # 6) Conclusions <a class="anchor" id="conc"></a>  
