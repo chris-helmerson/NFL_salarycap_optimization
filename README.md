@@ -21,9 +21,9 @@
 
 **Hypothetical Business Background**: In an effort to broaden its audience, the NFL is expanding its roster from 32 teams to 34 teams with two new franchises to be located in London, UK and Vancouver, CA. We have been approached by the ownership group from one of the cities and they are eager to establish themselves as serious contenders to maximize public interest and in turn, revenue.
 
-**Problem**: The ownership group has asked us how their team can best maximize win percentage during the regular season (17 games)  by looking at how to best allocate their available "Salary Cap" (league imposed spending limit on players).
+**Problem**: The ownership group has asked us how their team can best maximize win percentage during the regular season (17 games)  by looking at how to best allocate their available "Salary Cap" (league-imposed spending limit on players).
 
-**Goals**: Use historic nfl data to predict a team's regular season win percentage given how much they spend on diffent player position groups and provide recomendations on how they should best spend their salary cap.
+**Goals**: Scrape historic NFL data to predict a team's regular season win percentage given how much they spend on different player position groups and provide recommendations on how they should best spend their salary cap.
 
 ---
 
@@ -48,9 +48,9 @@
       - Reasoning
 
 
-   - **Combine 96 scrapes from seperate web pages into 3 year based lists** 
+   - **Combine 96 scrapes from separate web pages into 3 year based lists** 
        - Data from scrapes did not contain year or team info
-   - **Add standard team abreviations and years as new columns to dataframes**
+   - **Add standard team abbreviations and years as new columns to dataframes**
        - Required for sorting
    - **Rename first column to "Status" and overwrites column values with player status from dataframe**
        - Protects player identity and any possible bias associated with names
@@ -58,7 +58,7 @@
        - Cleans up the column name for merging
    - **Filtered dataframe and clean cells**
        - Only want relevant data that is usable
-   - **Pulled in regular season win % from seperate dataframe**
+   - **Pulled in regular season win % from separate dataframe**
        - Need to pull in target data
    - **Bin player positions into groups based on player roles**
        - Many player positions are similar and 23 is too many
@@ -106,11 +106,11 @@ The optimized Decision Tree scored a whopping 96.1% accuracy! This will be our f
 ---  
 # 6) Conclusions <a class="anchor" id="conc"></a>  
 
-When provided with the the amount spent on each position group, player status and age, we are able to predict whether or not that team will have a high win percentage (75th percentile or above) with 96% accuracy!  
+When provided with the amount spent on each position group, player status and age, we can predict whether or not that team will have a high win percentage (75th percentile or above) with 96% accuracy!  
 
-Since that information is relatively easy to come by and control, our model should be immensly helpful in resolving our stakeholders business problem of maximizing win percentage.  
+Since that information is relatively easy to come by and control, our model should be immensely helpful in resolving our stakeholders business problem of maximizing win percentage.  
 
-Other conclusions we can draw from our research include the top three most postively correlated position group to regular season win percentage which are..  
+Other conclusions we can draw from our research include the top three most positively correlated position group to regular season win percentage which are..  
 
 - spending an average amount on receivers (.241)
 - spending a high amount on defensive line (.177)
@@ -129,6 +129,6 @@ And the top three most negatively correlated position group to regular season wi
 
 - Since this is a fresh team and we have the rare opportunity of only signing active players for our first year, it would behoove us to look at models optimized only for 'active' player status for the first year.
 - It would also be worth paying for access to more years worth of data to make our dataset more robust.
-    - Although I would caution going to far back, as the game and it's strategies evolve over time
+    - Although I would caution going to far back, as the game and its strategies evolve over time
 - Our next model should focus on player performance so we can maximize our spending in each category
 - Given the jack-of-all trades nature of some modern positions like TE or Runningback, we should look at individual team usage of positions and allocate their salary accordingly to their usage.  
